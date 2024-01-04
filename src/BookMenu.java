@@ -26,7 +26,7 @@ public class BookMenu {
                     System.out.println("삭제하실 책의 번호를 입력해주세요 : ");
                     int num = sc.nextInt();
                     sc.nextLine();
-                    bm.deleteBook(num-1);
+                    bm.deleteBook(num-1); break;
                 case 5 :bm.displayAll(); break;
 
 

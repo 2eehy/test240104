@@ -1,5 +1,6 @@
 public class BookManager {
 
+
     BookDTO[] barr = new BookDTO[3];{
         barr[0] = new BookDTO();
         barr[1] = new BookDTO();
@@ -37,7 +38,7 @@ public class BookManager {
 
        for(BookDTO arr : barr){
 
-            if(arr.category==0)
+            if(arr==null)
             {
                 System.out.println("-------출력완료----------");
                 break;}
